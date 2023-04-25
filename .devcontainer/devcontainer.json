@@ -1,17 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-	"name": "Node.js & TypeScript",
+	"name": "Ruest",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+	"image": "mcr.microsoft.com/vscode/devcontainers/rust",
 	"features": {
-		"ghcr.io/devcontainers/features/azure-cli:1": {},
-		"ghcr.io/devcontainers/features/rust:1": {},
-		"ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {},
-		"ghcr.io/devcontainers-contrib/features/terraform-ls-asdf:2": {},
-		"ghcr.io/stuartleeks/dev-container-features/azure-cli-persistence:0": {},
-		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
-		"ghcr.io/jason-johnson/dev-wasm-feature/rust-wasi:latest": {}
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -29,16 +23,11 @@
 			"extensions": [
 				"eamodio.gitlens",
 				"davidanson.vscode-markdownlint",
-				"hashicorp.terraform",
-				"ms-azuretools.vscode-docker",
-				"ms-vscode.azurecli",
-				"ms-azuretools.vscode-azureterraform",
 				"ms-azure-devops.azure-pipelines",
 				"esbenp.prettier-vscode",
 				"rust-lang.rust-analyzer",
 				"bungcip.better-toml",
 				"vadimcn.vscode-lldb",
-				"loiane.ts-extension-pack",
 				"dbaeumer.vscode-eslint"
 			]
 		}
