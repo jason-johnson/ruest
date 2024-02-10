@@ -28,7 +28,8 @@
 				"rust-lang.rust-analyzer",
 				"bungcip.better-toml",
 				"vadimcn.vscode-lldb",
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"github.copilot"
 			]
 		}
 	}
